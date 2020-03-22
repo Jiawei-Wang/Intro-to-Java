@@ -2,18 +2,17 @@ package java_class;
 
 import java.util.Scanner;
 
-//»ªÊÏ¶ÈÉãÊÏ¶È×ª»»
+//ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½×ªï¿½ï¿½
 public class Week_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int F, C;
 		Scanner in = new Scanner(System.in);
-		System.out.println("ÇëÊäÈë»ªÊÏÎÂ¶È£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ë»ªï¿½ï¿½ï¿½Â¶È£ï¿½");
 		F = in.nextInt();
 		C = (int)((F-32)*5/9.0);
-		System.out.println("ÉãÊÏÎÂ¶ÈÎª£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½Îªï¿½ï¿½");
 		System.out.println(C);
 	}
-
 }
